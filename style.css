@@ -1,4 +1,7 @@
 body {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     width: 1024px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
@@ -6,7 +9,30 @@ body {
     color: #000;
 }
 
+
 h1 {
+    display: block;
+    text-align: center;
     font-size: 20px;
     font-weight: bold;
+}
+
+#generate {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 350px;
+    text-align: center;
+}
+
+#redbutton {
+    font-size: 16px;
+    font-weight: bold;
+    height: 2em;
+    color: #fff;
+    background-color: #257E22;
+    display:block;
+    margin: 20px auto 0px; 
+    border-radius: 4px;
 }
